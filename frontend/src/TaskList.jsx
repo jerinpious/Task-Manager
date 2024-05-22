@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css'
 
 const TaskList = ({tasks}) => {
 
@@ -19,28 +20,22 @@ const TaskList = ({tasks}) => {
         }
     }
     return <div>
-        <h2>Todoist</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Tasks</th>
-                    <th>Description</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                {tasks.map((task) => (
-                    <tr key = {task.id}>
-                        <td>{task.taskTitle}</td>
-                        <td>{task.taskDescription}</td>
-                        <td>
-                            <button onClick={() => onDelete(task.id)}>Delete</button>
-                        </td>
-                    </tr>
-                ))}
-            </tbody>
-        </table>
+        
+    <div className="card-container">
+      {tasks.map((task) => (
+        <div className="card" key={task.id}>
+          <div className="card-header">{task.taskTitle}</div>
+          <div className="card-body">{task.taskDescription}</div>
+          <div className="card-footer">
+            <button onClick={() => onDelete(task.id)}>Delete</button>
+          </div>
+        </div>
+      ))}
+   
     </div>
+  </div>
+            
+    
 }
 
 export default TaskList
