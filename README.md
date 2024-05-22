@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Task-Manager-
-=======
 # Todoist Task Manager
 This is a simple task manager application built with Flask for the backend and React for the frontend. The application allows users to create, view, and delete tasks.
 
@@ -8,6 +5,14 @@ This is a simple task manager application built with Flask for the backend and R
 - Create a new task with a title and description
 - View all tasks
 - Delete a task
+
+### Screenhots
+<img src="images/image1.png" alt="Home Page" width="800"/>
+Home page of the app where you can view all the pending tasks and can make changes like add a new task, delete etc..
+
+
+<img src="images/image2.png" alt="Home Page" width="800"/>
+Add task modal which allows the user to input the task title and description.
 
 ### Installation
 #### Prerequisites
@@ -62,6 +67,9 @@ The backend is built with Flask and uses SQLAlchemy for database interactions. I
 - App.jsx: Main component that includes state management and renders the TaskForm and TaskList components.
 - TaskForm.jsx: Form component to create a new task.
 - TaskList.jsx: Component to display all tasks with delete functionality
+
+### Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ### Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
