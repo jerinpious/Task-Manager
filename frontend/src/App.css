@@ -96,7 +96,7 @@ form input {
 }
 .main{
   display: flex;
-  
+  margin-left: 250px;
   justify-content: space-between;
 }
 .newtask{
