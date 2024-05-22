@@ -38,7 +38,7 @@ Make sure you have the following installed:
  ~~~
 - Run the Flask app:
  ~~~
- Run the Flask app:
+ python main.py
  ~~~
 - The backend server should now be running at http://127.0.0.1:5000.
 #### Frontend
@@ -70,7 +70,3 @@ The backend is built with Flask and uses SQLAlchemy for database interactions. I
 
 ### Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-### Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
